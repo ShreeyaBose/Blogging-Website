@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Blogging website</title>
+</head>
+<body>
+    <header>
+        <h1>Create Your Own Blog</h1>
+    </header>
+    <main>
+        <section class="content-editor">
+            <h2>Create Blog Content</h2>
+            <form id="content-form">
+                <label for="text">Text:</label>
+                <textarea id="text" name="text"></textarea>
+                
+                <label for="image">Image:</label>
+                <input type="file" id="image" name="image" accept="image/*">
+                
+                <label for="video">Video:</label>
+                <input type="file" id="video" name="video" accept="video/*">
+                
+                <button type="submit">Publish</button>
+            </form>
+        </section>
+        
+        <section class="published-content" id="published-content">
+            <!-- Published content will be displayed here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Blog </p>
+    </footer>
+    
+    <script src="script1.js"></script>
+</body>
+</html>
